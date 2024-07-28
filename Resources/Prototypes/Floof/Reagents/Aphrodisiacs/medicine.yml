@@ -10,6 +10,15 @@
     Medicine:
       metabolismRate : 0.5
       effects:
+      - !type:GenericStatusEffect
+        key: Horny
+        component: Horny
+        type: Add
+        time: 5
+        refresh: false
+        conditions:
+        - !type:ReagentThreshold
+          min: 10
       - !type:PopupMessage
         type: Local
         visualType: Medium
@@ -63,6 +72,15 @@
     Medicine:
       metabolismRate : 0.5
       effects:
+      - !type:GenericStatusEffect
+        key: Horny
+        component: Horny
+        type: Add
+        time: 5
+        refresh: false
+        conditions:
+        - !type:ReagentThreshold
+          min: 5.0
       - !type:PopupMessage
         type: Local
         visualType: Large

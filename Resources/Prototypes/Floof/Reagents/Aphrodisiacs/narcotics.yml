@@ -9,6 +9,15 @@
   metabolisms:
     Narcotic:
       effects:
+      - !type:GenericStatusEffect
+        key: Horny
+        component: Horny
+        type: Add
+        time: 5
+        refresh: false
+        conditions:
+        - !type:ReagentThreshold
+          min: 1.0
       - !type:PopupMessage
         type: Local
         visualType: Medium

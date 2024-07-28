@@ -3,6 +3,7 @@ reagent-effect-status-effect-KnockedDown = knockdown
 reagent-effect-status-effect-Jitter = jittering
 reagent-effect-status-effect-TemporaryBlindness = blindess
 reagent-effect-status-effect-SeeingRainbows = hallucinations
+reagent-effect-status-effect-Horny = horny
 reagent-effect-status-effect-Muted = inability to speak
 reagent-effect-status-effect-Stutter = stuttering
 reagent-effect-status-effect-ForcedSleep = unconsciousness

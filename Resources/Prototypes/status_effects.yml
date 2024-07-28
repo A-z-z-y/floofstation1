@@ -26,6 +26,9 @@
   id: SeeingRainbows
 
 - type: statusEffect
+  id: Horny
+
+- type: statusEffect
   id: Electrocution
 
 - type: statusEffect
